@@ -5,9 +5,9 @@
   var SAVE_INTERVAL_SECONDS = 5;
 
   function initialize() {
-    var player = document.querySelector('wistia-player[media-id="r385khrnwa"]');
+    var player = document.querySelector('wistia-player[media-id="9ti23af2bd"]');
     if (!player) {
-      throw new Error("The Wistia player for r385khrnwa was not found.");
+      throw new Error("The Wistia player for 9ti23af2bd was not found.");
     }
 
     var watchedSeconds = Math.min(
